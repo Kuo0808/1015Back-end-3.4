@@ -14,6 +14,7 @@ namespace _1015
     {
         static void Main(string[] args)
         {
+            ///For While迴圈都要寫
             ////習題3-1 寫一個程式、輸入10個整數求其最小值
             //Console.WriteLine("請輸入10個整數");
             //int n = Convert.ToInt32(Console.ReadLine());
