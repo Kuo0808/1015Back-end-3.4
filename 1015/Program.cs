@@ -14,7 +14,6 @@ namespace _1015
     {
         static void Main(string[] args)
         {
-            ///For While迴圈都要寫
             ////習題3-1 寫一個程式、輸入10個整數求其最小值
             //Console.WriteLine("請輸入10個整數");
             //int n = Convert.ToInt32(Console.ReadLine());
@@ -28,25 +27,6 @@ namespace _1015
             //    }
             //}
             //Console.WriteLine($"最小值為{min}" );
-
-            ////while寫法
-            //Console.WriteLine("請輸入10整數");
-            //int n = Convert.ToInt32(Console.ReadLine());
-            //int min = n;
-            //int count = 1;
-            //while (count<10)
-            //{
-            //    n = Convert.ToInt32(Console.ReadLine());
-            //    if (n < min)
-            //    {
-            //        min = n;
-            //    }
-            //    count++;
-            //}
-            //Console.WriteLine ($"最小值等於{min}");
-
-
-
 
             ////習題3-2 寫一程式、輸入n個整數求其最小值
             //Console.WriteLine("請輸入N個整數");
@@ -62,27 +42,6 @@ namespace _1015
             //}
             //Console.WriteLine($"最小值為{min2}");
 
-            ////while寫法
-            //Console.WriteLine("請輸入要輸入幾個整數");
-            //int N = Convert.ToInt32(Console.ReadLine());
-            //int min = int.MaxValue;
-            //int count = 0;
-            //while(count<N)
-            //    {
-            //    Console.WriteLine($"請輸入第{count+1}個整數");
-            //    int n= Convert.ToInt32(Console.ReadLine());
-            //    if (n < min)
-            //    {
-            //        min = n;
-            //    }
-            //    count++;
-            //}
-            //Console.WriteLine($"最小值為{min}");
-
-
-
-
-
             ////習題3-3 寫一程式、輸入10個整數、列出其中所有大於12的數字
             //Console.WriteLine("請輸入10個整數：");
 
@@ -92,20 +51,6 @@ namespace _1015
             //    if (num > 12)
             //        Console.WriteLine(num);
             //}
-
-            ////while寫法
-            //Console.WriteLine("請輸入10個整數");
-            //int count = 0;
-            //while(count<10)
-            //    {
-            //    int num = Convert.ToInt32(Console.ReadLine());
-            //    if (num > 12)
-            //        Console.WriteLine(num);
-            //    count++;
-            //}
-
-
-
 
             ////習題3-4 寫一程式、輸入10個整數、列出其中所有大於12的數字的總和
             //Console.WriteLine("請輸入10個整數");
@@ -119,23 +64,6 @@ namespace _1015
             //    }
             //}
             //Console.WriteLine($"大於12的數字總和為{sum}");
-
-            //while寫法
-            //Console.WriteLine("請輸入10個整數");
-            //int sum = 0;
-            //int count = 0;
-            //while(count<10)
-            //{
-            //    int num = Convert.ToInt32(Console.ReadLine());
-            //    if (num > 12)
-            //    {
-            //        sum += num;
-            //    }
-            //    count++;
-            //}
-            //Console.WriteLine($"大於12數字總合為{sum}");
-
-
 
             ////習題3-5 寫一程式、輸入n個數字，求其所有奇數中最大的值。例如輸入11,12,13,14,15、則輸出15
             //Console.WriteLine("請輸入整數（輸入 0 結束）：");
@@ -155,33 +83,6 @@ namespace _1015
             //else
             //    Console.WriteLine($"所有奇數中最大的值為 {maxOdd}");
 
-            //// 習題3-5：輸入 N 個整數，求奇數中最大的值（for 版本）
-
-            //Console.Write("請輸入要輸入的整數個數 N：");
-            //int N = Convert.ToInt32(Console.ReadLine());
-
-            //int maxOdd = int.MinValue;  // 設成最小可能的整數，方便比較
-
-            //for (int i = 0; i < N; i++)
-            //{
-            //    int num = Convert.ToInt32(Console.ReadLine());
-
-            //    if (num % 2 != 0 && num > maxOdd)
-            //    {
-            //        maxOdd = num;
-            //    }
-            //}
-
-            //if (maxOdd == int.MinValue)
-            //    Console.WriteLine("沒有輸入任何奇數！");
-            //else
-            //    Console.WriteLine($"所有奇數中最大的值為 {maxOdd}");
-
-
-
-
-
-
             /////習題3-6寫一程式，輸入N個數字，求其所有正數之平方的加總。例如輸入1,-2,3,-4,5五個數字，得到12 + (-2)2 + 32 + (-4)2 + 52 = 1 + 9 + 25 = 35
             //Console.WriteLine("請輸入N個數字(輸入0結束)");
             //int sum = 0;
@@ -194,20 +95,6 @@ namespace _1015
             //}
             //Console.WriteLine($"數字平方的總合為{sum}");
 
-            //for寫法
-            //Console.WriteLine("請輸入要輸入幾個數字");
-            //int N = Convert.ToInt32(Console.ReadLine());
-            //int sum = 0;
-            //for(int i=0;i<N;i++)
-            //{
-            //    int num = Convert.ToInt32(Console.ReadLine());
-            //    if (num > 0)
-            //        sum += num * num;
-            //}
-            //Console.WriteLine($"數字平方的總合為{sum}");
-
-
-
             //習題3-7輸入N個數字，其中有些是負數，將這些負數轉換成正數，例如-7會被轉換成7
             //Console.WriteLine("請輸入N個數字，當中負數將被轉變為正數,輸入0則結束");
 
@@ -217,18 +104,6 @@ namespace _1015
             //    if (N == 0)break;
             //    Console.WriteLine(Math.Abs(N)); 
             //}
-            //for寫法
-            //Console.WriteLine("請輸入要輸入幾個數字，然後輸入的負數將被轉換成正數");
-            //int countN = Convert.ToInt32(Console.ReadLine());
-            //for(int i=0;i<countN;i++)
-            //{
-            //    int N = Convert.ToInt32(Console.ReadLine());
-            //    Console.WriteLine(Math.Abs(N));
-            //}
-
-
-
-
 
             //補充習題
             //1.判斷101~200之間有多少的質數，並輸出所有質數。
@@ -246,28 +121,6 @@ namespace _1015
             //    if(isprime)
             //        Console.WriteLine($"{n}");
             //}
-            //while寫法
-            //int n= 101;
-            //while(n<=200)
-            //{
-            //    bool isprime = true;
-            //    int i = 2;
-            //    while(i<=Math.Sqrt(n))
-            //    {
-            //        if(n%i==0)
-            //        {
-            //            isprime = false;
-            //            break;
-            //        }
-            //        i++;
-            //    }
-            //    if(isprime)
-            //        Console.WriteLine($"{n}");
-            //    n++;
-            //}
-
-
-
 
 
             ////2.輸入一個數，輸出其質因數
@@ -283,21 +136,6 @@ namespace _1015
             //    }
             //}
 
-            //while寫法
-            //Console.WriteLine("請輸入一個數");
-            //int n = Convert.ToInt32(Console.ReadLine());
-            //Console.WriteLine($"其質因數為:");
-            //int i = 2;
-            //while(i<=n)
-            //{
-            //    while(n%i==0)
-            //    {
-            //        Console.WriteLine($"{i}");
-            //        n /= i;
-            //    }
-            //    i++;
-            //}
-
 
             //3.求100~到300中可以被3與7整除的整數個數
             //int count = 0; // 用來計算符合條件的數量
@@ -311,20 +149,6 @@ namespace _1015
             //    }
             //}
             //Console.WriteLine($"100~300 之間可以被 3 和 7 整除的共有 {count} 個數字。");
-
-            ////while寫法
-            //int i = 100;
-            //int count = 0; // 用來計算符合條件的數量
-            //while(i<=300)
-            //{
-            //    if (i % 3 == 0 && i % 7 == 0)
-            //    {
-            //        count++;
-            //        Console.WriteLine(i); // 若想列出符合的數字，可以保留這行
-            //    }
-            //    i++;
-            //}
-            //Console.WriteLine($"100~300 之間可以被 3 和 7 整除的共有 {count} 個數字");
 
 
             ////習題4-1利用while寫一程式求N個數字的最大值
@@ -484,8 +308,27 @@ namespace _1015
             //    {
             //        Console.WriteLine($"恭喜你猜中！答案是 {answer}");
             //        break; // 猜中就結束迴圈
-            //    }
-            //}
         }
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
     }
 }
